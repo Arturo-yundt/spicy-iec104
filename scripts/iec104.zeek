@@ -868,7 +868,7 @@ const ports = {
 };
 
 # Additional ROC Plus ports supplied through the environment.
-    global iec104_ports_str: string = getenv("ZEEK_TDS_PORTS");
+    global iec104_ports_str: string = getenv("ZEEK_IEC_104_PORTS");
 
 event zeek_init() &priority=5
 {
